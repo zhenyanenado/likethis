@@ -17,3 +17,7 @@ for(var i=1; i<=8; i++){
 document.getElementById('pod1').onclick = function(){
 	this.style.backgroundImage = 'url(2.jpg)';
 }
+
+document.getElementById('pod1').ondblclick = function(){
+	this.style.backgroundImage = 'url(1.jpg)';
+}
