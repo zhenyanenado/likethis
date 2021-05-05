@@ -1,0 +1,38 @@
+#grid{
+	position: fixed;
+	display: grid;
+	width: 750px;
+	height: 1337px;
+		min-height: 1337px;
+	max-height: 1337px;
+	min-width: 750px;
+	min-width: 750px;
+}
+
+#grid1, #grid2, #grid3{
+	position: fixed;
+	width: 750px;
+	height: 1337px;
+
+}
+
+#grid1{
+		position: fixed;
+	transition: all ease 0.5s;
+	background-size: 250%;
+	background-image: url('https://img.championat.com/c/1200x900/news/big/i/a/s-t-a-l-k-e-r-2-budet-ochen-dolgoj-igroj_16200644151074831956.jpg');
+}
+
+#grid2{
+		position: fixed;
+	transition: all ease 0.5s;
+	background-size: 150%;
+	background-image: url('https://upload.wikimedia.org/wikipedia/ru/3/35/BioShock_Infinite.jpeg');
+}
+
+#grid3{
+		position: fixed;
+	transition: all ease 0.5s;
+	background-size: 250%;
+	background-image: url('https://nie.res.netease.com/r/pic/20210312/f67f6830-fcf6-4c5d-9175-6b2119056320.png');
+}
