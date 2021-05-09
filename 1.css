@@ -1,0 +1,14 @@
+body{
+	position: fixed;
+}
+
+
+#grid{
+	transition: all ease 1s;
+	position: fixed;
+	display: grid;
+	width: 400px;
+	height: 700px;
+}
+
+
